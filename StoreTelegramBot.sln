@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{00F2B501-AACF-4F7E-A752-25D138989E64}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StoreTelegramBot.CommandCenter", "src\StoreTelegramBot.CommandCenter\StoreTelegramBot.CommandCenter.csproj", "{678E971C-8BDF-4498-9545-895555B60D34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoreTelegramBotApp.Domain", "src\StoreTelegramBotApp.Domain\StoreTelegramBotApp.Domain.csproj", "{49DC6DF2-E8EA-46B9-9BCB-7F2854D5EDD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoreTelegramBotApp.Infrastructure.Sql", "src\StoreTelegramBotApp.Infrastructure.Sql\StoreTelegramBotApp.Infrastructure.Sql.csproj", "{43F31413-B5FD-496E-B9C7-6FFA53BF2728}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{678E971C-8BDF-4498-9545-895555B60D34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{678E971C-8BDF-4498-9545-895555B60D34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{678E971C-8BDF-4498-9545-895555B60D34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{678E971C-8BDF-4498-9545-895555B60D34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49DC6DF2-E8EA-46B9-9BCB-7F2854D5EDD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49DC6DF2-E8EA-46B9-9BCB-7F2854D5EDD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49DC6DF2-E8EA-46B9-9BCB-7F2854D5EDD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49DC6DF2-E8EA-46B9-9BCB-7F2854D5EDD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43F31413-B5FD-496E-B9C7-6FFA53BF2728}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43F31413-B5FD-496E-B9C7-6FFA53BF2728}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43F31413-B5FD-496E-B9C7-6FFA53BF2728}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43F31413-B5FD-496E-B9C7-6FFA53BF2728}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{678E971C-8BDF-4498-9545-895555B60D34} = {00F2B501-AACF-4F7E-A752-25D138989E64}
+		{49DC6DF2-E8EA-46B9-9BCB-7F2854D5EDD9} = {00F2B501-AACF-4F7E-A752-25D138989E64}
+		{43F31413-B5FD-496E-B9C7-6FFA53BF2728} = {00F2B501-AACF-4F7E-A752-25D138989E64}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CE8B7163-E03F-4D67-9A88-029037A8DF21}
+	EndGlobalSection
+EndGlobal
